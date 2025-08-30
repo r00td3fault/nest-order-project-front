@@ -60,7 +60,7 @@ const addListeners = () => {
     (payload: { fullName: string; message: string }) => {
       const newMesage = `
         <li>
-          <strong> ${payload.fullName}</strong>
+          <strong> ${payload.fullName}: </strong>
           <span> ${payload.message}</span>
         </li>
       `;
